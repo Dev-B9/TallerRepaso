@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/newPerson.css">
+  <title>Document</title>
+</head>
+<body>
+ 
+  <header>
+
+    <img src="./img/js.png" alt="logo javascript" class="logo" draggable="false">
+
+    <h1 class="title">Taller De Repaso </h1>
+
+    <img src="./img/js.png" alt="key" class="logo2" draggable=" false">
+
+  </header>
+
+
+  <nav>
+
+    <ul id="btn-menu">
+      <li><a href="#" id="nameANDage" >Nombre y Edad</a></li>
+      <li><a href="#" id="greaters" >Mayores De 20</a></li>
+      <li><a href="#"id="percentageWomans" >Porcentaje Mujeres</a></li>
+      <li><a href="#" id="showCards" >Mostrar Personas</a></li>
+      <li><a href="#" id="showNewPerson" >Añadir Persona</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- <main id="main"> -->
+<section class="container1" class="name_age" >
+
+  <ul id="listPersons"></ul>
+
+</section>
+
+<section class="container2">
+  <ul id="listGreaters"></ul>
+
+</section>
+
+<section class="container3">
+  <p id="percentage"> </p>
+
+</section>
+
+<section class="notext" >
+<div id="conteCards">
+
+</div>
+</section>
+
+
+<div  id="newPerson" class="right-login">
+  <div  class="card-login">
+  <h1>Agregar Persona</h1>
+  <div class="textfield">
+    <label for="name">Nombre</label>
+    <input type="text" id="new-name" placeholder="nombre">
+  </div>
+
+  <div class="textfield">
+    <label for="age">Edad</label>
+    
+    <input type="text" id="new-age" placeholder="edad">
+  </div>
+
+  <div class="textfield">
+    <label for="gender"> Genero</label>
+    <input type="text" id="new-gender" placeholder="genero">
+  </div>
+
+  <div class="textfield">
+<label for="image">Imagen</label>
+    <input type="file" id="new-img"placeholder="imagen">
+  </div>
+
+  <button id="createPerson" class="btn-login"> Crear </button>
+</div>
+</div>
+
+<!-- </main> -->
+
+
+
+
+
+  <script  type="module" src="./js/app.js"></script>
+  <script type="module" src="./js/people.js"></script>
+</body>
+</html>
